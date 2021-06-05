@@ -1,0 +1,125 @@
+@media screen and (max-width:1500px){
+    
+}
+
+@media screen and (max-width:1199px){
+    
+    .main-nav .nav .nav-item.last{
+        margin-left: 5px;
+    }
+    .main-nav .nav .nav-item{
+        margin-right: 0px;
+        margin: 0.5rem 0;
+    }
+    .heading-content .headline{
+        font-size: 30px;
+    }
+    
+}
+
+@media screen and (min-width: 992px){
+   
+}
+
+@media screen and (max-width:991px){
+    
+}
+
+@media screen and (max-width:768px){
+    .main-nav {
+        padding: 1rem 0;
+    }
+
+    .navbar-collapse.collapsing {
+        left: -70%;
+    }
+  
+    .navbar-collapse.show {
+        height: 100%;
+        left: 0;
+    }
+  
+    .navbar-toggler.collapsed ~ .navbar-collapse {
+      -webkit-transition: all 0.5s ease 0s;
+      -moz-transition: all 0.5s ease 0s;
+      transition: all 0.5s ease 0s;
+    }
+}
+
+@media (max-width: 767px){
+    .main-nav .navbar-collapse {
+        position: fixed;
+        width: 70%;
+        left: 0;
+        top: 0rem;
+        background: #051418;
+        max-height: 100%;
+        z-index: 2000;
+        overflow-y: scroll;
+        padding: 2rem 1.5rem;
+
+        -webkit-transition: all 0.15s ease 0s;
+        -moz-transition: all 0.15s ease 0s;
+        transition: all 0.15s ease 0s;
+    }
+}
+
+@media screen and (min-width: 600px){
+    .lg-llink{
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 576px){
+    .modal-dialog {
+        max-width: 500px;
+        margin: 1.75rem auto;
+    }
+}
+
+@media screen and (max-width:576px){
+    
+   
+    .footer-bottom .social_media,.articles_block .text-left{
+        text-align: center !important;
+    }
+    .footer_area .divider{
+        margin-bottom: 20px;
+    }
+    .heading-content .actions .btn-cta{
+        margin-left: auto;
+    }
+    .heading-content .headline {
+        font-size: 45px !important;
+        line-height: 55px;
+    }
+    .heading-content .intro{
+        font-size: 15px;
+    }
+    .bttn-block{
+        display: block !important;
+    }
+    .btn-parent{
+        align-items: center !important;
+    }
+    .main-nav .nav .nav-item a {
+        color: #b0aefb;
+        display: block;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        text-transform: capitalize;
+        -webkit-transition: color 0.2s linear;
+        -o-transition: color 0.2s linear;
+        transition: color 0.2s linear;
+        font-size: 15px;
+    }
+    .main-nav .nav .nav-item .btn-signup {
+        position: relative;
+        padding: 5px 24px;
+        top: 12px;
+        display: none;
+    }
+    .md-llink{
+        display: none !important;
+    }
+}

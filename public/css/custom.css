@@ -1,0 +1,355 @@
+/*Css Document*/
+.font-normal,
+.font-normal em,
+.font-normal i {
+  font-style: normal !important;
+}
+.ui-box-shadow-dark-light, .ui-button-shadow-dark-light {
+  box-shadow: 0 8px 40px 0 rgb(96 108 115 / 30%) !important;
+}
+
+.-mrgt {
+  margin-top: -15px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+.bold{
+  font-weight: bolder !important;
+}
+
+/* brand colors */
+.brand-b{
+  color: #302e2e!important;
+}
+.brand-p{
+  color: #040344 !important;
+}
+.brand-plight{
+  color: #4693df !important;
+}
+.brand-pdark{
+  color: #03022F !important;
+}
+.brand-o{
+  color: #FF6725 !important
+}
+
+.bg-brand-p{
+  background-color: #040344 !important;
+}
+.bg-brand-plight{
+  background-color: #04025C !important;
+}
+.bg-brand-pdark{
+  background-color: #03022F !important;
+}
+.bg-brand-o {
+  background-color: #2bc132 !important;
+  box-shadow: 1px 6px 10px 4px rgb(96 108 115 / 30%) !important;
+}
+
+
+.m-auto {
+  margin: auto !important;
+}
+
+.mt-auto,
+.my-auto {
+  margin-top: auto !important;
+}
+
+.mr-auto,
+.mx-auto {
+  margin-right: auto !important;
+}
+
+.mb-auto,
+.my-auto {
+  margin-bottom: auto !important;
+}
+
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+
+.form input,
+form input,
+.form select,
+form select,
+.form textarea,
+form textarea {
+  border-radius: 5px !important;
+}
+
+.hero-content-slider {
+  background: transparent !important;
+  border: none;
+  height: 500px;
+  /*display: flex;*/
+  /*align-items: center;*/
+  position: relative;
+  top: 8.5rem;
+}
+
+.main-nav .nav .nav-item .btn-signup {
+  position: relative;
+  padding: 5px 24px;
+  top: 12px;
+}
+
+.header .logo img {
+  width: 130px;
+}
+
+.btn{
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.big-btn {
+  padding: 0.65rem 2rem;
+  border-radius: 4px;
+  font-size: 18px;
+}
+.mid-btn {
+  padding: 0.45rem 2.3rem;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.btn-sm {
+  padding: 0.8rem 2.5rem;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.btn-mini {
+  padding: 0.15rem 1rem;
+  border-radius: 3px;
+  font-size: 14px;
+}
+.btn.ghost{
+  background-color: transparent;
+}
+
+.btn.ghost.cord-white{
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.btn.ghost.cord-white:hover{
+  color: #FF6725;
+  background-color: #fff;
+}
+
+form .ctrl--x{
+  position: relative;
+}
+form .ctrl--x label{
+  position: absolute;
+  left: 1rem;
+  top:-0.85rem;
+  background-color: #fff;
+  padding: 0 0.35rem;
+  color: #000;
+}
+form .ctrl--x .indexed-up{
+  z-index: 1;
+}
+form .form-group{
+  margin-bottom: 1.5rem;
+}
+form .form-group.last{
+  margin-bottom: 0;
+}
+
+form .custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  background-color: #FF6725;
+}
+
+form .custom-checkbox span{
+  position: relative;
+  top: -4px;
+}
+
+
+form button {
+  width: 110px;
+}
+form button:focus{
+  box-shadow: none;
+  outline: none;
+}
+
+.hr-1 {
+  margin-top: -2.0rem;
+  margin-bottom: 0;
+  width: 30%;
+  margin-left: 294px;
+}
+.hr-2{
+  margin-top: -0.6rem;
+  margin-bottom: 2rem;
+  width: 30%;
+  margin-left: -1px;
+}
+/* auth */
+.big-hero.cord-auth{
+  height: 450px;
+}
+.con--form {
+  position: relative;
+  padding: 2.5rem 1.5rem;
+}
+
+.con--form.up{
+  padding: 0;
+}
+
+.con--form .form-control, .con--form select.form-control {
+    height: 50px !important;
+    padding: 0 2.2rem;
+}
+
+.con--form .form-control:focus{
+  box-shadow: none;
+  outline: none;
+  border: 1px solid #FF6725;
+}
+
+.con--form .tab--bx{
+  padding: 2rem 1.5rem;
+}
+
+.con--form .rwt__tab {
+  padding: 1rem 1.2rem !important;
+  cursor: pointer;
+  width: 50%;
+}
+
+.con--form .rwt__tablist:not([aria-orientation="vertical"]) .rwt__tab[aria-selected="true"]:after {
+  border-bottom: 3px solid #fff !important;
+}
+
+.con--form .rwt__tab{
+  color: rgba(0,0,0,0.5);
+}
+
+.con--form .rwt__tab[aria-selected="true"]{
+  color: #040344;
+}
+
+/* dashboard  */
+.fm--update label{
+  margin-bottom: 0;
+}
+.fm--update .form-control,
+.fm--update select.form-control{
+  height: 50px !important;
+  padding: 0 1.2rem;
+}
+
+.react-dropdown-select{
+  height: 50px !important;
+  border-radius: 5px !important;
+  font-family: 'gilroyregular' !important;
+  font-size: 14px;
+  border: 1px solid rgba(0, 40, 100, 0.12) !important;
+}
+
+.react-dropdown-select-content
+{
+  padding-left: 0.6rem;
+  color: #04025C;
+}
+.react-dropdown-select-content span
+{
+  font-size: 14px;
+  color: #04025C;
+}
+.react-dropdown-select-dropdown-handle{
+  margin-right: 0.6rem !important;
+}
+
+.fm--update .form-control:focus{
+  box-shadow: none;
+  outline: none;
+}
+.fm--update .form-control:focus{
+  border-color: #0F55DE;
+}
+form .form-group {
+  margin-bottom: 1rem;
+}
+.progress{
+  border-radius: 0;
+}
+.progress.dash-up{
+  height: 6px;
+}
+.modal-body {
+  padding-bottom: 0px;
+  font-size: 14px;
+}
+.ht--bx{
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.redirect{
+  margin-top: 4px;
+}
+
+
+/*---------------------------------------------*/
+.focus-input100 {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+  top: -13px;
+  left: 0;
+  pointer-events: none;
+}
+
+* 
+
+.focus-input100::after {
+  content: attr(data-symbol);
+  font-family: Material-Design-Iconic-Font;
+  color: #adadad;
+  font-size: 22px;
+
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: calc(100% - 20px);
+  bottom: 0;
+  left: 0;
+  padding-left: 13px;
+  padding-top: 3px;
+}
+
+.focus-input100::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #7f7f7f;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
+  -moz-transition: all 0.4s;
+  transition: all 0.4s;
+}
