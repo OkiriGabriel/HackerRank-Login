@@ -73,7 +73,7 @@ const SignUp = (props) => {
                                           <label className="custom-control-label brand-b font-gilroy" for="customCheck1"><span className="brand-b">Remember me</span></label>
                                       </div>
                                       <div className="ml-auto">
-                                          <Link to="/forgot-password" className="font-gilroy brand-plight  fs-13 "><span>Forgot Your password?</span></Link>
+                                          <Link to="" className="font-gilroy brand-plight  fs-13 "><span>Forgot Your password?</span></Link>
                                       </div>
                                   </div>
                                 
@@ -150,135 +150,6 @@ const SignUp = (props) => {
 
                         <TabPanel tabId='two'>
                           <div className='tab--bx'>
-                            {/* <form className='mrgt1'>
-                              <div className='row'>
-                                <div className='col-md-12'>
-                                  <div className='form-group ctrl--x'>
-                                    <label
-                                      htmlFor='schoolname'
-                                      className='fs-15 font-gilroy indexed-up'
-                                    >
-                                      School name
-                                    </label>
-                                    <input
-                                      name='schoolname'
-                                      className='form-control font-gilroy'
-                                      type='text'
-                                      placeholder='Your school name'
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='row'>
-                                <div className='col-md-6'>
-                                  <div className='form-group ctrl--x'>
-                                    <label
-                                      htmlFor='phone'
-                                      className='fs-15 font-gilroy indexed-up'
-                                    >
-                                      Official Phone number
-                                    </label>
-                                    <input
-                                      name='phone'
-                                      className='form-control font-gilroy'
-                                      type='number'
-                                      placeholder='Official phone number'
-                                    />
-                                  </div>
-                                </div>
-                                <div className='col-md-6'>
-                                  <div className='form-group ctrl--x'>
-                                    <label
-                                      htmlFor='relationship'
-                                      className='fs-15 font-gilroy indexed-up'
-                                    >
-                                      Category
-                                    </label>
-                                    <select
-                                      name='relationship'
-                                      className='form-control font-gilroy custom-select'
-                                    >
-                                      <option value=''>Select</option>
-                                      <option value='primary'>Primary</option>
-                                      <option value='secondary'>
-                                        Secondary
-                                      </option>
-                                    </select>
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='form-group ctrl--x'>
-                                <label
-                                  htmlFor='email'
-                                  className='fs-15 font-gilroy indexed-up'
-                                >
-                                  Official Email
-                                </label>
-                                <input
-                                  name='email'
-                                  className='form-control font-gilroy'
-                                  type='email'
-                                  placeholder='official email address'
-                                />
-                              </div>
-
-                              <div className='row'>
-                                <div className='col-md-6'>
-                                  <div className='form-group ctrl--x'>
-                                    <label
-                                      htmlFor='password'
-                                      className='fs-15 font-gilroy indexed-up'
-                                    >
-                                      Password
-                                    </label>
-                                    <input
-                                      name='password'
-                                      className='form-control font-gilroy'
-                                      type='password'
-                                      placeholder='Choose password'
-                                    />
-                                  </div>
-                                </div>
-                                <div className='col-md-6'>
-                                  <div className='form-group ctrl--x'>
-                                    <label
-                                      htmlFor='cpassword'
-                                      className='fs-15 font-gilroy indexed-up'
-                                    >
-                                      Confirm Password
-                                    </label>
-                                    <input
-                                      name='cpassword'
-                                      className='form-control font-gilroy'
-                                      type='password'
-                                      placeholder='Confirm password'
-                                    />
-                                  </div>
-                                </div>
-                              </div>
-
-                              <div className='form-group mrgt1 last'>
-                                <div className='d-flex bttn-block align-items-center'>
-                                  <div>
-                                    <Link
-                                      to='/signin'
-                                      className='font-gilroymedium brand-o'
-                                    >
-                                      <span>Have an account? Sign In</span>
-                                    </Link>
-                                  </div>
-                                  <div className='ml-auto'>
-                                      <button className='btn big-btn bg-brand-o onwhite font-gilroymedium fs-16'>
-                                        Register Your School
-                                      </button>
-                                  </div>
-                                </div>
-                              </div>
-                            
-                            
-                            </form> */}
                           </div>
                         </TabPanel>
                       </Tabs>
